@@ -13,5 +13,8 @@ The seventh goal will be to re-penetration test the SOAR system with the cloud a
     PROGRESS DIARY:
     
 GOAL 1
+
 5/6/2025: Had to tear down and rebuild box because I made it too small. Got the terraform setup correctly I think. 
 Have a problem with my laptop's hardware not being able to run a virtual box due to microsoft not allowing nested virtualization on surface laptops. I will have to work on other things until I am able to return home and work with my homelab next week. 
+
+5/8/2025: Figured out I should use a wrapper script to launch all of my boxes using terraform, then use ansible to setup each box. Setup wrapper script and started planning architecture of the fake network.
